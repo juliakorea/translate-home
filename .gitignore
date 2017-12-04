@@ -1,0 +1,10 @@
+.DS_Store
+
+_site/
+.ipynb_checkpoints/
+
+# Jekyll stuff
+.bundle
+.jekyll-metadata
+
+Gemfile.lock
