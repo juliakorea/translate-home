@@ -9,7 +9,7 @@ navigation:
     url: "https://github.com/JuliaLang/julia"
   - url: "/downloads/"
     title: 다운로드
-  - url: "/ko/"
+  - url: "/ko/latest/"
     title: 문서
   - url: "http://pkg.julialang.org/"
     title: 패키지
@@ -28,7 +28,7 @@ navigation:
   - url: "/soc/ideas-page.html"
     title: GSoC
   - url: "http://juliacon.org"
-    title: 줄리아콘
+    title: 줄리아컨퍼런스
 collections:
   publications:
     permalink: /publications/:path
