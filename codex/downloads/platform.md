@@ -13,6 +13,10 @@ Julia is available for Windows 7 and later, both 32 bit and 64 bit.
 2. Run the downloaded program to extract julia
 3. Double-click the julia shortcut in the unpacked folder to start julia
 
+Windows 7/Windows Server 2012 users will also need to install:
+ - the [TLS easy_fix](https://support.microsoft.com/en-us/help/3140245/update-to-enable-tls-1-1-and-tls-1-2-as-a-default-secure-protocols-in) for the package manager to work, see [this Discourse thread](https://discourse.julialang.org/t/errors-for-git-pkg/9351) for more details.
+ - [Windows Management Framework 3.0 or later](https://docs.microsoft.com/en-us/powershell/wmf/readme) to include PowerShell 3.0 or later.
+
 The [Windows README](https://github.com/JuliaLang/julia/blob/master/README.windows.md) contains information on dependencies.
 
 Uninstallation is performed by deleting the extracted directory and the packages directory in `%HOME%/.julia`. If you would also like to remove your preferences files, remove `%HOME%/.juliarc.jl` and `%HOME%/.julia_history`.
@@ -28,13 +32,13 @@ In your terminal, run
 
     brew cask install julia
 
-## Linux
+## Linux and FreeBSD
 
-It is strongly recommended that the official generic linux binaries from the downloads page be used to install Julia. 
+It is strongly recommended that the official generic binaries from the downloads page be used to install Julia on Linux and FreeBSD.
 
-### Generic Linux Binaries
+### Generic Binaries
 
-The generic Linux binaries do not require any special installation steps, but you will need to ensure that your system can find the `julia` executable. First, extract the `.tar.gz` file downloaded from the [downloads page](index.html) to a folder on your computer. To run Julia, you can do any of the following:
+The generic Linux and FreeBSD binaries do not require any special installation steps, but you will need to ensure that your system can find the `julia` executable. First, extract the `.tar.gz` file downloaded from the [downloads page](index.html) to a folder on your computer. To run Julia, you can do any of the following:
 
 * Create a symbolic link to `julia` inside a folder which is on your system `PATH`
 * Add Julia's `bin` folder to your system `PATH` environment variable
@@ -44,11 +48,11 @@ For example, to create a symbolic link to `julia` inside the `/usr/local/bin` fo
 
     sudo ln -s <where you extracted the julia archive>/bin/julia /usr/local/bin/julia
 
-On some linux distributions, you may need to use a folder other than `/usr/local/bin`. To check which folders are on your `PATH`, you can run `echo $PATH`. 
+On some Linux distributions, you may need to use a folder other than `/usr/local/bin`. To check which folders are on your `PATH`, you can run `echo $PATH`.
 
-### Linux Distribution-Specific Packages
+### Distribution-Specific Packages
 
-The following distribution-specific packages are community contributed. They may not use the right versions of Julia dependencies or include important patches that the official binaries ship with. In general, bug reports will only be accepted if they are reproducible on the generic linux binaries on the downloads page.
+The following distribution-specific packages are community contributed. They may not use the right versions of Julia dependencies or include important patches that the official binaries ship with. In general, bug reports will only be accepted if they are reproducible on the official generic binaries on the downloads page.
 
 Instructions will be added here as more linux distributions start including julia. If your Linux distribution is not listed here, you should still be able to run julia by building from source. See the [Julia README](https://github.com/JuliaLang/julia/blob/master/README.md) for more detailed information.
 
@@ -86,6 +90,19 @@ If `dnf` is not available for your distribution, download the relevant `.repo` f
 New versions are built every night. If you have already installed julia and you want to upgrade to the latest version, do:
 
     sudo yum upgrade julia
+
+### FreeBSD Ports
+
+Julia is available in the [Ports Collection](https://svnweb.freebsd.org/ports/head/lang/julia/).
+To install from the FreeBSD binary package manager, `pkg`, run
+
+    pkg install julia
+
+To build and install Julia from source within the Ports framework, run
+
+    cd /usr/ports/lang/julia
+    make clean
+    make install
 
 ## Uninstalling Julia
 

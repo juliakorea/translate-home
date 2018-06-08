@@ -88,7 +88,7 @@ To get a sense of relative performance of Julia compared to other languages that
 We encourage you to skim the code to get a sense for how easy or difficult numerical programming in each language is.
 
 <center>
-<div class="figure" style="align: center; width: 77%">
+<div class="figure">
 {% include benchmarks.svg %}
 <p class="caption"><b>Figure:</b>
 Benchmark times relative to C (smaller is better, C performance = 1.0). Plot created with
