@@ -7,8 +7,8 @@ navigation:
     url: /
   - title: 소스코드
     url: "https://github.com/JuliaLang/julia"
-  - url: "/downloads/"
-    title: 다운로드
+  - title: 다운로드
+    url: "https://julialang.org/downloads/"
   - url: "/ko/latest/"
     title: 문서
     class: docs
