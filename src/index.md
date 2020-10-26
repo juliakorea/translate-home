@@ -10,8 +10,6 @@ title: 줄리아 언어
 신호 처리, 그리고 [문자열 처리](/ko/latest/manual/strings/#strings)를 위해
 C와 포트란으로 작성된 고품질의 오픈소스 라이브러리들을 통합하였습니다.
 아울러 줄리아 개발 커뮤니티는 다양한 [외부 패키지들](https://julialang.org/packages/)을 작업하며 활기차게 기여하고 있습니다.
-[IJulia](https://github.com/JuliaLang/IJulia.jl)는 [주피터 프로젝트(Jupyter)](https://jupyter.org)와 줄리아 커뮤니티의 공동 작업으로,
-브라우저에서 줄리아를 실행, 편집하는 그래픽 노트북 인터페이스를 제공합니다.
 
 <!--
 This keynote talk by Stefan Karpinski at [ODSC Boston](https://www.odsc.com/boston) (2016) on [the two language problem](https://www.youtube.com/watch?v=B9moDuSYzGo) explains much of the motivation behind Julia:
