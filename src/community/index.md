@@ -49,7 +49,7 @@ For casual conversation and quick, informal questions, we have an [official
 Julia Slack](https://julialang.slack.com). Slack is also a good place to start
 if you think you need help but aren't quite sure what you should be asking or
 where to ask it. To join, please visit
-[slackinvite.julialang.org](https://slackinvite.julialang.org/) to agree to the
+[https://julialang.org/slack/](https://julialang.org/slack/) to agree to the
 community code of conduct and receive an invitation.
 
 ### YouTube
