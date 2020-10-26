@@ -5,31 +5,21 @@ gems:
 navigation:
   - title: 홈
     url: /
-  - title: 소스코드
-    url: "https://github.com/JuliaLang/julia"
-  - title: 다운로드
+  - title: Download
     url: "https://julialang.org/downloads/"
-  - url: "/ko/latest/"
-    title: 문서
+  - title: 문서
+    url: "/ko/latest/"
     class: docs
-  - url: "http://pkg.julialang.org/"
-    title: 패키지
-  - url: "/blog/"
-    title: 블로그
-  - url: "/community/"
-    title: 커뮤니티
-  - url: "/ecosystems"
-    title: 생태계
-  - url: "/learning/"
-    title: 배우기
-  - url: "/teaching/"
-    title: 강의
-  - url: "/publications/"
-    title: 논문
-  - url: "/soc/ideas-page.html"
-    title: GSoC
-  - url: "http://juliacon.org"
-    title: 줄리아컨퍼런스
+  - title: Blog
+    url: "https://julialang.org/blog/"
+  - title: Community
+    url: "https://julialang.org/community/"
+  - title: Learn
+    url: "https://julialang.org/learning/"
+  - title: Research
+    url: "https://julialang.org/research/"
+  - title: JSoC
+    url: "https://julialang.org/jsoc/"
 collections:
   publications:
     permalink: /publications/:path
