@@ -5,18 +5,18 @@ gems:
 navigation:
   - title: 홈
     url: /
-  - title: Download
+  - title: 다운로드
     url: "https://julialang.org/downloads/"
   - title: 문서
     url: "/ko/latest/"
     class: docs
-  - title: Blog
+  - title: 블로그
     url: "https://julialang.org/blog/"
-  - title: Community
+  - title: 커뮤니티
     url: "https://julialang.org/community/"
-  - title: Learn
+  - title: 배우기
     url: "https://julialang.org/learning/"
-  - title: Research
+  - title: 연구
     url: "https://julialang.org/research/"
   - title: JSoC
     url: "https://julialang.org/jsoc/"
